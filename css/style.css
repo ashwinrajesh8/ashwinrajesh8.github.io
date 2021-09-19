@@ -88,7 +88,7 @@
   }
   
   .float-left {
-    float: ;
+    float: left;
     margin-left: 3rem;
     margin-bottom: 1rem;
     margin-top: 0rem;
@@ -125,6 +125,7 @@
 
   .class-list > table {
       border-collapse: collapse;
+      table-layout: fixed;
       width: 100%;
   }
 
@@ -134,6 +135,11 @@
     padding: 8px;
   }
 
-  .class-list > tr:nth-child(even) {
-      background-color: #A9CCE3;
+  .class-list > th {        /*Testing override functionality on above*/
+      text-align: center;
+      font-size: large;
+  }
+
+  tr:nth-child(even) {
+    background-color: #A9CCE3;
   }
