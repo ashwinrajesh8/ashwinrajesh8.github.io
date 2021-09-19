@@ -50,6 +50,10 @@
     text-align: justify;
   }
 
+  .p2 {
+      padding-left: 35rem;
+  }
+
   .footer-submit {
     background-color: #17202A;
     border: 1px;
@@ -57,14 +61,13 @@
     color: white;
     text-align: center;
     font-size: 0.75rem;
-    float: right;
+    float: center;
     max-width: 5rem;
-    margin-right: 6rem;
     margin-top: 0.075rem;
   }
 
   .input-footer {
-      float: right;
+      float: center;
       font-size: 0.75rem;
       max-width: 50rem;
       text-align: center;
@@ -85,7 +88,7 @@
   }
   
   .float-left {
-    float: left;
+    float: ;
     margin-left: 3rem;
     margin-bottom: 1rem;
     margin-top: 0rem;
@@ -118,4 +121,19 @@
     right: 0;
     left: 0;
     text-align: center;
+  }
+
+  .class-list > table {
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  .class-list > td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .class-list > tr:nth-child(even) {
+      background-color: #A9CCE3;
   }
