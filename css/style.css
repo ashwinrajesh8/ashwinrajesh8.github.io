@@ -1,14 +1,26 @@
 * {
     box-sizing: border-box;
     width: 100%;
-    padding: 5px;
+    padding: 3px;
   }
   
   body {
     margin: 0;
-    margin-top: 3.25rem;
+    margin-top: 3rem;
     font-family: Garamond;
     color: #424949;
+  }
+
+  h1 {
+      text-align: center;
+      font-stretch: ultra-expanded;
+      font-size: 5rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ABB2B9
   }
   
   nav {
@@ -37,7 +49,28 @@
   p {
     text-align: justify;
   }
-  
+
+  .footer-submit {
+    background-color: #17202A;
+    border: 1px;
+    border-color: azure;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    float: right;
+    max-width: 5rem;
+    margin-right: 6rem;
+    margin-top: 0.075rem;
+  }
+
+  .input-footer {
+      float: right;
+      font-size: 0.75rem;
+      max-width: 50rem;
+      text-align: center;
+      margin-right: 0.5rem;
+  }
+
   .col-3 {
     column-count: 3;
   }
@@ -49,14 +82,13 @@
   .banner-image {
     position: relative;
     z-index: -1;
-    display: grid;
   }
   
   .float-left {
     float: left;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   
   .clear {
@@ -64,7 +96,7 @@
   }
   
   .rounded {
-    border-radius: 100rem;
+    border-radius: 10rem;
     max-width: 100%;
     max-height: 100vh;
     box-sizing: content-box;
@@ -73,6 +105,17 @@
   .scroll-box {
     border: solid 1px gray;
     max-height: 15rem;
+    max-width: 45rem;
     overflow-y: scroll;
     padding: 0 1rem;
+    box-sizing: content-box;
+  }
+
+  .form-submission {
+    background: #ABB2B9;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
   }
