@@ -146,3 +146,8 @@
   tr:nth-child(even) {
     background-color: #A9CCE3;
   }
+
+  #interest-table {
+      table-layout: fixed;
+      width: 100%;
+  }
