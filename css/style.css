@@ -4,6 +4,14 @@
     padding: 3px;
     margin: auto;
   }
+
+  header {
+      z-index: 1;
+  }
+
+  footer {
+      z-index: 1;
+  }   
   
   body {
     margin: 0;
@@ -12,16 +20,31 @@
     color: #424949;
   }
 
+  a[target=websites] {
+      color:azure;
+      text-decoration: underline;
+  }
+
   h1 {
       text-align: center;
       font-stretch: ultra-expanded;
       font-size: 5rem;
+      z-index: -1;
   }
 
   h2 {
     text-align: center;
     font-size: 2rem;
     color: #ABB2B9
+  }
+
+  ol {
+      text-align: justify;
+      margin-left: 2rem;
+  }
+
+  ol > li {
+      font-size: 0.85rem;
   }
   
   nav {
@@ -31,16 +54,13 @@
     right: 0;
     left: 0;
     text-align: center;
+    opacity: 0.965;
   }
   
   nav li {
     display: inline;
     list-style: none;
     margin-right: 1rem;
-  }
-  
-  nav a {
-    color: #FFF;
   }
   
   main {
@@ -52,7 +72,8 @@
   }
 
   .p2 {
-      padding-left: 35rem;
+      text-align: center;
+      font-weight: bold;
   }
 
   .footer-submit {
@@ -86,6 +107,18 @@
   .banner-image {
     position: relative;
     z-index: -1;
+  }
+  .banner-image > span {
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background: rgb(10, 53, 110);
+    opacity: 0.75;
+    padding: .5rem 1rem;
+    color: #FFF;
+    font-weight: bold;
   }
   
   .float-center {
@@ -150,4 +183,13 @@
   #interest-table {
       table-layout: fixed;
       width: 100%;
+  }
+
+  #interest-table > table {
+      table-layout: fixed;
+  }
+
+  div[class*='interest-content'] {
+      color:#34495E;
+      text-align: center;
   }
